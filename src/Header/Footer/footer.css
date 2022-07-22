@@ -35,3 +35,8 @@ padding: 3px 22px;
    font-size: 20px;
    margin-top: 10px;
 }
+.dete{
+    display: flex;
+    align-items: center;
+   margin-left: auto;
+}

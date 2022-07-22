@@ -14,15 +14,15 @@ export default function ControlledAccordions() {
   };
 
   return (
-    <div>
+    
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary
+     <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
+         
         >
            
-      
           <Box className='top'>
             <Box className='top1'>
           
@@ -34,10 +34,13 @@ export default function ControlledAccordions() {
           </Box>
           </Box>
          
+          <Box className='date'>
+            June21,2022
+           </Box>
       
   
         </AccordionSummary>
-        
+      
         <AccordionDetails>
 <Box className='simple'>
        <Box className='simple1'> ABOUT</Box>
@@ -50,7 +53,7 @@ export default function ControlledAccordions() {
          </AccordionDetails>
      
      </Accordion>
-            
-      </div> 
+   
+     
  )
  }

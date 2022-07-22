@@ -160,3 +160,20 @@ color: #8C93A3;
     margin-top: -10px;
     color: #598CF4;
    }
+   .Nam{
+    display: flex;
+    align-items: center;
+   margin-left: auto;
+   }
+   .scrool-con{
+    background-color: #DBDBDB;;
+    width:100%;
+ }
+ .scrool-con1{
+     width: 100%;
+     background-color: #DBDBDB;;
+     height:500px;
+     overflow: hidden;
+     overflow-y: scroll;
+    
+ }

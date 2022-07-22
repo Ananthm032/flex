@@ -160,3 +160,21 @@ color: #8C93A3;
     margin-top: -10px;
     color: #598CF4;
    }
+   .Name{
+    display: flex;
+    align-items: center;
+   margin-left: auto;
+   }
+   .scrool-veri{
+    background-color: #DBDBDB;;
+    width:100%;
+    
+ }
+ .scrool-veri1{
+     width: 100%;
+     background-color: #DBDBDB;;
+     height:500px;
+     overflow: hidden;
+     overflow-y: scroll;
+    
+ }

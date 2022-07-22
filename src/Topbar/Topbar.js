@@ -1,25 +1,26 @@
 
 import './topbar.css';
-import Img from "../Images/logo.png"
+import Img from "../Images/Artboard 35.png"
 import Img2 from "../Images/147144.png"
 import Sidebar from "../Sidebar/Sidebar"
 import ArticleIcon from '@mui/icons-material/Article';
 import {Box, Button}from "@mui/material"
 import Mini from "../Miniside/Mini"
 import {Link} from "react-router-dom"
+import Note from "../Note/Note"
 function Topbar() {
   return (
     <div  className='flex'>
- <header>
+ <header className='header'>
  
   <Box className='box'>
-  <Box> <img src={Img} alt='' height='148px' width='250px' /></Box>
+  <Box className='img'><img src={Img} alt='' width='148px' height='78px' /></Box>
   <Box> <p>Admin</p>
   </Box>
   </Box>
- <Link to='/'> <Box >
-    <img src={Img2} alt='' width='30' height='30px'/>
-  </Box></Link>
+  <Box >
+    <img src={Img2} alt=''width='30px' height='30px'/>
+  </Box>
   
  
   </header>
@@ -38,9 +39,9 @@ function Topbar() {
     
     <section class="content">
      <Box className='mini'>
-       <Link to='/review' style={{textDecoration:'none',color:'lightgray'}}> <Box className='mini1'> <p> For review</p></Box></Link>
-      <Link to='/verified' style={{textDecoration:'none',color:'lightgray'}}><Box className='mini2'>  <p> Verified</p></Box></Link>
-      <Link to='/rejected' style={{textDecoration:'none',color:'lightgray'}}>  <Box className='mini3'>  <p> Rejected</p></Box></Link>
+       <Link to='/' style={{textDecoration:'none'}}> <Box className='mini1'> <p> For review</p></Box></Link>
+      <Link to='/verified' style={{textDecoration:'none'}}><Box className='mini2'>  <p> Verified</p></Box></Link>
+      <Link to='/rejected' style={{textDecoration:'none'}}>  <Box className='mini3'> <p> Rejected</p></Box></Link>
      </Box>
     <Box>
       <Box className='bar1'>
@@ -50,7 +51,7 @@ function Topbar() {
        <Mini/>
       </Box>
       </Box>
-       
+    
     </section> 
      </div>
        </div>

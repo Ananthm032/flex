@@ -209,3 +209,23 @@ font-size: 20px;
 color: #000000;
 cursor: pointer;
    }
+.sim20{
+    background-color: #5FC92E;
+}
+.data{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.scrool{
+   background-color: #DBDBDB;;
+   width:100%;
+}
+.scrool-1{
+    width: 100%;
+    background-color: #DBDBDB;;
+    height:490px;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+}

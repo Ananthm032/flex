@@ -33,7 +33,9 @@ export default function ControlledAccordions() {
             <Button>Accepted</Button>
           </Box>
           </Box>
-         
+         <Box className="Nama">
+       June21,2022
+         </Box>
       
   
         </AccordionSummary>

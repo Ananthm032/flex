@@ -14,7 +14,8 @@ export default function ControlledAccordions() {
   };
 
   return (
-    <div>
+    <div className='scrool-veri'>
+      <div className='scrool-veri1'>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -31,7 +32,9 @@ export default function ControlledAccordions() {
             <Button>Accepted</Button>
           </Box>
           </Box>
-         
+         <Box className='Name'>
+          June21,2022
+         </Box>
       
   
         </AccordionSummary>
@@ -71,7 +74,7 @@ https://www.instagram.com/kalsdkmfklasmdklfmklsadmfklmlaksfmklmsdklfmksdmlf
          </AccordionDetails>
      
      </Accordion>
-            
+     </div>
       </div> 
  )
  }
