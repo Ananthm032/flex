@@ -1,23 +1,23 @@
-.top{
+.tope{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-.top1{
+.tope1{
     font-family: 'Satoshi';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 }
-.top button{
-    background: #D3E5FE;
+.tope button{
+    background: #FFE3D6;
 border-radius: 40px;
-color: #1236AA;
+color: #7A0933;
 padding: 3px 22px;
 
 }
-.simple1{
+.simplee1{
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -27,7 +27,7 @@ padding: 3px 22px;
     font-size: 18px;
     color:  #8C93A3;;
 }
-.simple2{
+.simplee2{
    text-align: initial;
    font-family: 'Satoshi';
    font-style: normal;

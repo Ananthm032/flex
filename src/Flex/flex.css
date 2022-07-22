@@ -1,0 +1,141 @@
+* {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+   
+  }
+  
+  
+  
+  header {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid  #DBDBDB;
+  
+  }
+  
+  .menuo {
+    
+    flex-basis: 250px;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+  }
+  .logoo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF8D7;
+    opacity: 0.5;
+   height: 72px;
+   width: 250px;
+  
+  }
+  .logoo p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #F1A240;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .contento {
+  
+   width: 100%;
+   height: 100vh;
+   border: 2px solid lightgray;
+   
+   
+  }
+  
+  .flex-containero {
+    display: flex;
+    height:100vh
+  }
+  .flexo{
+   height: 100vh;
+   width: 100%;
+  }
+  .boxo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #FFFFFF;
+   border-bottom: 2px solid  #DBDBDB;;
+   
+  }
+  .boxo p{
+    color: #000;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .minio{
+   
+   display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid lightgray;
+   
+  }
+  .mini1o{
+   
+    border: 2px solid;
+    border: transparent;
+    width: 100%;
+    height: 72px;
+   
+  }
+  
+  .mini1o p{
+    color: lightgray; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .mini2o{
+    border: 2px solid;
+    width: 100%;
+    height: 72px;
+    border: transparent;
+    
+   
+  }
+  .mini2o p{
+    color: lightgray; ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .mini3o{
+    border: 2px solid;
+    border: transparent;
+    width: 100%;
+    height: 72px;
+  }
+  .mini3o p{
+    color: lightgray; ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  
+  .baro{
+    border: 6px solid lightgray;
+   
+  }
+  .bar1o{
+    border: 6px solid lightgray;
+    
+  }

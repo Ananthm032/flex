@@ -1,0 +1,134 @@
+* {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+   
+  }
+  
+  
+  
+  header {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid  #DBDBDB;
+  
+  }
+  
+  .manu {
+    
+    flex-basis: 250px;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+  }
+  .loga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF8D7;
+    opacity: 0.5;
+   height: 72px;
+   width: 250px;
+  
+  }
+  .loga p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #F1A240;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .cantent {
+  
+   width: 100%;
+   height: 100vh;
+   border: 2px solid lightgray;
+   
+   
+  }
+  
+  .flax-container {
+    display: flex;
+    height:100vh
+  }
+  .flax{
+   height: 100vh;
+   width: 100%;
+  }
+  .bax{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #FFFFFF;
+   border-bottom: 2px solid  #DBDBDB;;
+   
+  }
+  .bax p{
+    color: #000;
+    font-size: 14px;
+   
+  }
+  
+  .mina{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .mina1{
+   border: 2px solid black;
+   border: transparent;
+ 
+    width: 100%;
+    height: 72px;
+  }
+  .mina1 p{
+    color: lightgray; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .mina2{
+    border: 2px solid black;
+   border: transparent;
+      height: 72px;
+    width: 100%;
+    
+  }
+  .mina2 p{
+    color: #F1A240; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .mina3{
+    border: 2px solid;
+    border: transparent;
+   
+    width: 100%;
+    height: 72px;
+   
+  }
+  .mina3 p{
+    color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  .baa{
+    border: 6px solid lightgray;
+   
+  }
+  .baa1{
+    border: 6px solid lightgray;
+    
+  }

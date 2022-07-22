@@ -5,7 +5,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Button,Box } from '@mui/material';
-import "./sidebar.css"
+import "./ape.css"
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -23,14 +23,14 @@ export default function ControlledAccordions() {
         >
            
       
-          <Box className='top'>
-            <Box className='top1'>
+          <Box className='tep'>
+            <Box className='tep1'>
           
            CreaterName
          
           </Box>
           <Box>
-            <Button>Pending</Button>
+            <Button>Accepted</Button>
           </Box>
           </Box>
          
@@ -39,9 +39,9 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         
         <AccordionDetails>
-<Box className='simple'>
-       <Box className='simple1'> ABOUT</Box>
-      <Box className='simple2'>  
+<Box className='sample'>
+       <Box className='sample1'> ABOUT</Box>
+      <Box className='sample2'>  
         
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
  </Box>  

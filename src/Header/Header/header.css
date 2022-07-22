@@ -1,0 +1,139 @@
+* {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+   
+  }
+  
+  
+  
+  header {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid  #DBDBDB;
+  
+  }
+  
+  .menue {
+    
+    flex-basis: 250px;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+  }
+  .logoe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF8D7;
+    opacity: 0.5;
+   height: 72px;
+   width: 250px;
+  
+  }
+  .logoe p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #F1A240;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .contente {
+  
+   width: 100%;
+   height: 100vh;
+   border: 2px solid lightgray;
+   
+   
+  }
+  
+  .flex-containere {
+    display: flex;
+    height:100vh
+  }
+  .flexe{
+   height: 100vh;
+   width: 100%;
+  }
+  .boxe{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #FFFFFF;
+   border-bottom: 2px solid  #DBDBDB;;
+   
+  }
+  .boxe p{
+    color: #000;
+    font-size: 14px;
+   
+  }
+  
+  .minie{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .minie1{
+   border: 2px solid black;
+   border: transparent;
+    width: 100%;
+    height: 72px;
+  
+    
+  }
+  .minie1 p{
+    color:lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  .minie2{
+    border: 2px solid;
+    width: 100%;
+    height: 72px;
+   border: transparent;
+
+   
+  }
+  .minie2 p{
+    color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+   .minie3{
+   
+    border: 2px solid;
+    width: 100%;
+    height: 72px;
+   border:transparent;
+   border-bottom: #F1A240;
+   }
+  
+  .minie3 p{
+    color: #F1A240; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  
+  .bare{
+    border: 6px solid lightgray;
+   
+  }
+  .bare1{
+    border: 6px solid lightgray;
+    
+  }
