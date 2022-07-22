@@ -5,7 +5,7 @@
     gap:10px
 }
 .tap1{
-    font-family: 'Satoshi';
+    font-family: monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -216,6 +216,10 @@ cursor: pointer;
     display: flex;
     align-items: center;
     margin-left: auto;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+font-family: monospace;
 }
 .scrool{
    background-color: #DBDBDB;;

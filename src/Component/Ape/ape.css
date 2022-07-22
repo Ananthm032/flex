@@ -5,7 +5,7 @@
     gap: 10px;
 }
 .tep1{
-    font-family: 'Satoshi';
+    font-family: monospace;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
@@ -39,5 +39,8 @@ padding: 3px 22px;
     display: flex;
     align-items: center;
    margin-left: auto;
-   
+   font-style: normal;
+font-weight: 500;
+font-size: 20px;
+font-family: monospace;
 }

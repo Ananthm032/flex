@@ -34,7 +34,7 @@
   
   }
   .logoe p{
-    font-family: 'Satoshi';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -68,9 +68,9 @@
   }
   .boxe p{
     color: #000;
-    font-family: 'Satoshi';
+    font-family: sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
    
   }
@@ -91,7 +91,7 @@
   }
   .minie1 p{
     color:#8C93A3;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: monospace;;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -107,7 +107,7 @@
   }
   .minie2 p{
     color: #8C93A3;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -123,7 +123,7 @@
   
   .minie3 p{
     color: #F1A240; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;

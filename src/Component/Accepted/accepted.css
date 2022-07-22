@@ -1,10 +1,4 @@
-* {
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-   
-  }
-  
-  
+
   
   .header {
     display: flex;
@@ -34,7 +28,7 @@
   
   }
   .loga p{
-    font-family: 'Satoshi';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -69,9 +63,9 @@
   }
   .bax p{
     color: #000;
-    font-family: 'Satoshi';
+    font-family: sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
   }
   
@@ -89,7 +83,7 @@
   }
   .mina1 p{
     color: #8C93A3; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -103,7 +97,7 @@
   }
   .mina2 p{
     color: #F1A240; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -118,7 +112,7 @@
   }
   .mina3 p{
     color: #8C93A3;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;

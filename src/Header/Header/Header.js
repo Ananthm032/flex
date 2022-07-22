@@ -12,7 +12,7 @@ function Head() {
  <header className='header'>
  
   <Box className='boxe'>
-  <Box> <img src={Img} alt=''  width='148px' height='78px' /></Box>
+  <Box> <img src={Img} alt='' width='250px' height='78px'  /></Box>
   <Box> <p>Admin</p>
   </Box>
   </Box>

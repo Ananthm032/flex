@@ -14,7 +14,7 @@ function Topbar() {
  <header className='header'>
  
   <Box className='box'>
-  <Box className='img'><img src={Img} alt='' width='148px' height='78px' /></Box>
+  <Box className='img'><img src={Img} alt='' width='250px' height='78px' /></Box>
   <Box> <p>Admin</p>
   </Box>
   </Box>
@@ -39,7 +39,7 @@ function Topbar() {
     
     <section class="content">
      <Box className='mini'>
-       <Link to='/' style={{textDecoration:'none',width:'100%'}}> <Box className='mini1'> <p> For review</p></Box></Link>
+       <Link to='/' style={{textDecoration:'none',width:'100%'}}> <Box className='mini1'> <p> For Review</p></Box></Link>
       <Link to='/verified' style={{textDecoration:'none',width:'100%'}}><Box className='mini2'>  <p> Verified</p></Box></Link>
       <Link to='/rejected' style={{textDecoration:'none',width:'100%'}}>  <Box className='mini3'> <p> Rejected</p></Box></Link>
      </Box>
