@@ -39,19 +39,18 @@ function Topbar() {
     
     <section class="content">
      <Box className='mini'>
-       <Link to='/' style={{textDecoration:'none'}}> <Box className='mini1'> <p> For review</p></Box></Link>
-      <Link to='/verified' style={{textDecoration:'none'}}><Box className='mini2'>  <p> Verified</p></Box></Link>
-      <Link to='/rejected' style={{textDecoration:'none'}}>  <Box className='mini3'> <p> Rejected</p></Box></Link>
+       <Link to='/' style={{textDecoration:'none',width:'100%'}}> <Box className='mini1'> <p> For review</p></Box></Link>
+      <Link to='/verified' style={{textDecoration:'none',width:'100%'}}><Box className='mini2'>  <p> Verified</p></Box></Link>
+      <Link to='/rejected' style={{textDecoration:'none',width:'100%'}}>  <Box className='mini3'> <p> Rejected</p></Box></Link>
      </Box>
-    <Box>
-      <Box className='bar1'>
-      <Sidebar/>
-      </Box>
-      <Box className='bar'>
-       <Mini/>
-      </Box>
-      </Box>
     
+    <Box>
+    <Box className='bar1'>
+      <Sidebar/>
+      </Box> <Box className='bar'>
+      <Mini/>
+      </Box>
+    </Box>
     </section> 
      </div>
        </div>

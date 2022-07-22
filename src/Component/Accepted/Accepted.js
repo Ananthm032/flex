@@ -36,9 +36,9 @@ function Accepted() {
     
     <section class="cantent">
      <Box className='mina'>
-     <Link to='/' style={{textDecoration:'none',color:'lightgray'}}> <Box className='mina1'> <p> For review</p></Box></Link>
-      <Link to='/verified' style={{textDecoration:'none',color:'lightgray'}}><Box className='mina2'>  <p> Verified</p></Box></Link>
-      <Link to='/rejected' style={{textDecoration:'none',color:'lightgray'}}>  <Box className='mina3'>  <p> Rejected</p></Box></Link>
+     <Link to='/' style={{textDecoration:'none',color:'lightgray',width:'100%'}}> <Box className='mina1'> <p> For review</p></Box></Link>
+      <Link to='/verified' style={{textDecoration:'none',color:'lightgray',width:'100%'}}><Box className='mina2'>  <p> Verified</p></Box></Link>
+      <Link to='/rejected' style={{textDecoration:'none',color:'lightgray',width:'100%'}}>  <Box className='mina3'>  <p> Rejected</p></Box></Link>
      </Box>
     <Box>
       <Box className='baa1'>
