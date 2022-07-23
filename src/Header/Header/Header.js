@@ -4,7 +4,7 @@ import Img2 from "../../Images/147144.png"
 import ArticleIcon from '@mui/icons-material/Article';
 import {Box}from "@mui/material"
 import Footer from "../../Header/Footer/Footer"
-import Contant from "../../Header/Contant/Contant"
+
 import {Link} from "react-router-dom"
 function Head() {
   return (
@@ -37,7 +37,7 @@ function Head() {
     
     <section class="contente">
      <Box className='minie'>
-     <Link to='/' style={{textDecoration:'none',color:'lightgray',width:'100%'}}> <Box className='minie1'> <p> For review</p></Box></Link>
+     <Link to='/' style={{textDecoration:'none',color:'lightgray',width:'100%'}}> <Box className='minie1'> <p> For Review</p></Box></Link>
       <Link to='/verified'style={{textDecoration:'none',color:'lightgray',width:'100%'}}><Box className='minie2'>  <p> Verified</p></Box></Link>
       <Link to='/rejected' style={{textDecoration:'none',color:'lightgray',width:'100%'}}>  <Box className='minie3'>  <p> Rejected</p></Box></Link>
      </Box>

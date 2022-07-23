@@ -2,7 +2,6 @@ import * as React from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
-import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Button,Box } from '@mui/material';
 import "./ape.css"
@@ -53,11 +52,11 @@ export default function ControlledAccordions() {
      
      </Accordion>
      <Box className='buc2'>
-     <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+     <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2bh-content"
-          id="panel2bh-header"
+          aria-controls="panel2a-content"
+          id="panel2a-header"
         >
            
       

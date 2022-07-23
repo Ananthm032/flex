@@ -60,11 +60,11 @@ export default function ControlledAccordions() {
     
    
        <Box className='buc'>
-       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2bh-content"
-          id="panel2bh-header"
+          aria-controls="panel2a-content"
+          id="panel2a-header"
         >
            
       

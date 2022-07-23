@@ -7,14 +7,14 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid  #DBDBDB;
-  
+    background-color: #FFFFFF;
   }
   
   .manu {
     
     flex-basis: 250px;
     width: 100%;
-    height: 100vh;
+    height: 88vh;
     background: #FFFFFF;
   }
   .loga{
@@ -40,15 +40,15 @@
   .cantent {
   
    width: 100%;
-   height: 100vh;
+   height: 100%;
    border: 2px solid lightgray;
-   
+   background-color:#DBDBDB;
    
   }
   
   .flax-container {
     display: flex;
-    height:100vh
+    height:87vh
   }
   .flax{
    height: 100vh;
@@ -74,12 +74,12 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #FFFFFF;
   }
   .mina1{
    border: 2px solid black;
    border: transparent;
-    width: 100%;
-    height: 72px;
+ 
   }
   .mina1 p{
     color: #8C93A3; 
@@ -91,8 +91,7 @@
   .mina2{
     border: 2px solid black;
    border: transparent;
-      height: 72px;
-      width: 100%;
+ 
     border-bottom: 2px solid #F1A240;
   }
   .mina2 p{
@@ -106,8 +105,7 @@
     border: 2px solid;
     border: transparent;
    
-    width: 100%;
-    height: 72px;
+    
    
   }
   .mina3 p{
@@ -118,11 +116,9 @@
     font-size: 24px;
   }
   
-  .baa{
-    border: 6px solid  #DBDBDB;
-   
-  }
   .baa1{
-    border: 6px solid  #DBDBDB;
-    
+    border: 8px solid #DBDBDB;;
+   border-top: 8px solid #DBDBDB;;
+  
   }
+  

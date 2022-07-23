@@ -5,7 +5,7 @@ import Img2 from "../../Images/147144.png"
 import ArticleIcon from '@mui/icons-material/Article';
 import {Box}from "@mui/material"
 import Ape from "../../Component/Ape/Ape"
-import Verified from "../../Component/Verified/Verified"
+
 import {Link} from "react-router-dom"
 function Accepted() {
   return (
@@ -36,7 +36,7 @@ function Accepted() {
     
     <section class="cantent">
      <Box className='mina'>
-     <Link to='/' style={{textDecoration:'none',color:'lightgray',width:'100%'}}> <Box className='mina1'> <p> For review</p></Box></Link>
+     <Link to='/' style={{textDecoration:'none',color:'lightgray',width:'100%'}}> <Box className='mina1'> <p> For Review</p></Box></Link>
       <Link to='/verified' style={{textDecoration:'none',color:'lightgray',width:'100%'}}><Box className='mina2'>  <p> Verified</p></Box></Link>
       <Link to='/rejected' style={{textDecoration:'none',color:'lightgray',width:'100%'}}>  <Box className='mina3'>  <p> Rejected</p></Box></Link>
      </Box>
@@ -44,9 +44,7 @@ function Accepted() {
       <Box className='baa1'>
       <Ape/>
       </Box>
-      <Box className='baa'>
-      <Verified/>
-      </Box>
+      
       </Box>
        
     </section> 

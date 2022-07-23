@@ -13,14 +13,14 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid  #DBDBDB;
-  
+    background-color: #FFFFFF;
   }
   
   .menue {
     
     flex-basis: 250px;
     width: 100%;
-    height: 100vh;
+    height: 87vh;
     background: #FFFFFF;
   }
   .logoe{
@@ -46,15 +46,15 @@
   .contente {
   
    width: 100%;
-   height: 100vh;
+   height: 100%;
    border: 2px solid lightgray;
-   
+   background-color: #DBDBDB;
    
   }
   
   .flex-containere {
     display: flex;
-    height:100vh
+    height:87vh
   }
   .flexe{
    height: 100vh;
@@ -80,12 +80,12 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #FFFFFF;
   }
   .minie1{
    border: 2px solid black;
    border: transparent;
-    width: 100%;
-    height: 72px;
+  
   
     
   }
@@ -99,8 +99,7 @@
   
   .minie2{
     border: 2px solid;
-    width: 100%;
-    height: 72px;
+
    border: transparent;
 
    
@@ -115,8 +114,7 @@
    .minie3{
    
     border: 2px solid;
-    width: 100%;
-    height: 72px;
+  
    border:transparent;
    border-bottom: 2px solid #F1A240;
    }
@@ -131,6 +129,6 @@
   
   
   .bare{
-    border: 6px solid  #DBDBDB;
+    border: 8px solid  #DBDBDB;
    
   }
