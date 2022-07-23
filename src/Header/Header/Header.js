@@ -41,14 +41,12 @@ function Head() {
       <Link to='/verified'style={{textDecoration:'none',color:'lightgray',width:'100%'}}><Box className='minie2'>  <p> Verified</p></Box></Link>
       <Link to='/rejected' style={{textDecoration:'none',color:'lightgray',width:'100%'}}>  <Box className='minie3'>  <p> Rejected</p></Box></Link>
      </Box>
-    <Box>
-      <Box className='bare1'>
-      <Footer/>
-      </Box>
-      <Box className='bare'>
-       <Contant/>
-      </Box>
-      </Box>
+   <Box className='bare'>
+   <Footer/>
+   </Box>
+     
+      
+     
        
     </section> 
      </div>

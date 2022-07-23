@@ -221,15 +221,15 @@ font-weight: 500;
 font-size: 20px;
 font-family: monospace;
 }
-.scrool{
-   background-color: #DBDBDB;;
-   width:100%;
-}
+
 .scrool-1{
     width: 100%;
     background-color: #DBDBDB;;
-    height:490px;
+    height:600px;
     overflow: hidden;
     overflow-y: scroll;
    
+}
+.buc{
+    border-top: 6px solid #DBDBDB;
 }

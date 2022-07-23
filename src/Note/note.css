@@ -4,11 +4,13 @@
    width: 800px;
    height:350px;
     background: lightgray;
-     border-radius: 10px;
+     border-radius: 20px;
      border: transparent;
      font-size: 20px;
-     text-decoration:none
+     text-decoration:none;
+   
 }
+
 .h3{
     width: 200px;
     background: #FFAD0D;

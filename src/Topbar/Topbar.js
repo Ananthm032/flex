@@ -45,9 +45,7 @@ function Topbar() {
      </Box>
     
     <Box>
-    <Box className='bar1'>
-      <Sidebar/>
-      </Box> <Box className='bar'>
+   <Box className='bar'>
       <Mini/>
       </Box>
     </Box>

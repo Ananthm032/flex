@@ -44,3 +44,14 @@ font-weight: 500;
 font-size: 20px;
 font-family: monospace;
 }
+.scrall{
+     width: 100%;
+background-color: #DBDBDB;;
+height:600px;
+overflow: hidden;
+overflow-y: scroll;
+
+}
+.buc2{
+    border-top: 6px solid #DBDBDB;
+}

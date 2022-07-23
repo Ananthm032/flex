@@ -15,14 +15,56 @@ export default function ControlledAccordions() {
   };
 
   return (
-    <div className='scrool'>
-      <div className='scrool-1'>
+   
+    <div className='scrool-1'>
+     
+    <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+    <AccordionSummary
+         expandIcon={<ExpandMoreIcon />}
+         aria-controls="panel1bh-content"
+         id="panel1bh-header"
+        
+       >
+          
+         <Box className='top'>
+           <Box className='top1'>
+         
+          CreaterName
+        
+         </Box>
+         
+           <Button>Pending</Button>
+         </Box>
+        
+        
+         <Box className='date'>
+           June21,2022
+          </Box>
+     
+ 
+       </AccordionSummary>
+     
+       <AccordionDetails>
+<Box className='simple'>
+      <Box className='simple1'> ABOUT</Box>
+     <Box className='simple2'>  
        
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
+</Box>  
+  </Box>
+
+        </AccordionDetails>
+    
+    </Accordion>
+  
+    
+   
+       <Box className='buc'>
+       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1bh-content"
-          id="panel1bh-header"
+          aria-controls="panel2bh-content"
+          id="panel2bh-header"
         >
            
       
@@ -80,8 +122,9 @@ https://www.instagram.com/kalsdkmfklasmdklfmklsadmfklmlaksfmklmsdklfmksdmlf
          </AccordionDetails>
      
      </Accordion>
+     </Box>
      </div>
-       </div>
+     
        
  )
  }
